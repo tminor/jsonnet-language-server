@@ -3,7 +3,7 @@ package lexical
 import (
 	"context"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/config"
+	"github.com/tminor/jsonnet-language-server/pkg/config"
 	"github.com/sourcegraph/jsonrpc2"
 )
 

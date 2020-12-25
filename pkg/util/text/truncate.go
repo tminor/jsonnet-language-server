@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/util/position"
+	"github.com/tminor/jsonnet-language-server/pkg/util/position"
 )
 
 // Truncate returns text truncated at a position.

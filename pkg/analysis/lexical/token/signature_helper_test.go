@@ -3,7 +3,7 @@ package token
 import (
 	"testing"
 
-	jpos "github.com/bryanl/jsonnet-language-server/pkg/util/position"
+	jpos "github.com/tminor/jsonnet-language-server/pkg/util/position"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

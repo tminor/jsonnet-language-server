@@ -23,9 +23,9 @@ import (
 	"reflect"
 	"unicode/utf8"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/analysis/lexical/astext"
+	"github.com/tminor/jsonnet-language-server/pkg/analysis/lexical/astext"
 	"github.com/google/go-jsonnet/ast"
-	"github.com/google/go-jsonnet/parser"
+	"github.com/google/go-jsonnet/internal/parser"
 )
 
 var desugaredBop = map[ast.BinaryOp]ast.Identifier{

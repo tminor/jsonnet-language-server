@@ -3,10 +3,10 @@ package server
 import (
 	"context"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/analysis/lexical/token"
-	"github.com/bryanl/jsonnet-language-server/pkg/config"
-	"github.com/bryanl/jsonnet-language-server/pkg/lsp"
-	jpos "github.com/bryanl/jsonnet-language-server/pkg/util/position"
+	"github.com/tminor/jsonnet-language-server/pkg/analysis/lexical/token"
+	"github.com/tminor/jsonnet-language-server/pkg/config"
+	"github.com/tminor/jsonnet-language-server/pkg/lsp"
+	jpos "github.com/tminor/jsonnet-language-server/pkg/util/position"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

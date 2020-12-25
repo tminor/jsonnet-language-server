@@ -3,8 +3,8 @@ package token
 import (
 	"fmt"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/analysis/lexical/astext"
-	jpos "github.com/bryanl/jsonnet-language-server/pkg/util/position"
+	"github.com/tminor/jsonnet-language-server/pkg/analysis/lexical/astext"
+	jpos "github.com/tminor/jsonnet-language-server/pkg/util/position"
 	"github.com/google/go-jsonnet/ast"
 )
 

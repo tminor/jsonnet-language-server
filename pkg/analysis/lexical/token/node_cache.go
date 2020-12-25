@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/tracing"
+	"github.com/tminor/jsonnet-language-server/pkg/tracing"
 	jsonnet "github.com/google/go-jsonnet"
 	"github.com/google/go-jsonnet/ast"
 	opentracing "github.com/opentracing/opentracing-go"

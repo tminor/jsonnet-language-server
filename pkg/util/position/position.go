@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/lsp"
+	"github.com/tminor/jsonnet-language-server/pkg/lsp"
 	"github.com/google/go-jsonnet/ast"
 )
 

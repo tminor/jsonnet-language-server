@@ -6,11 +6,11 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/analysis/lexical/token"
-	"github.com/bryanl/jsonnet-language-server/pkg/lsp"
-	"github.com/bryanl/jsonnet-language-server/pkg/tracing"
-	"github.com/bryanl/jsonnet-language-server/pkg/util/position"
-	"github.com/bryanl/jsonnet-language-server/pkg/util/text"
+	"github.com/tminor/jsonnet-language-server/pkg/analysis/lexical/token"
+	"github.com/tminor/jsonnet-language-server/pkg/lsp"
+	"github.com/tminor/jsonnet-language-server/pkg/tracing"
+	"github.com/tminor/jsonnet-language-server/pkg/util/position"
+	"github.com/tminor/jsonnet-language-server/pkg/util/text"
 	"github.com/opentracing/opentracing-go/log"
 )
 

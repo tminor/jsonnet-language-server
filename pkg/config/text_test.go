@@ -3,7 +3,7 @@ package config
 import (
 	"testing"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/util/position"
+	"github.com/tminor/jsonnet-language-server/pkg/util/position"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/tracing"
+	"github.com/tminor/jsonnet-language-server/pkg/tracing"
 	"github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"
 	uuid "github.com/satori/go.uuid"

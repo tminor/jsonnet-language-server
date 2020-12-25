@@ -3,10 +3,10 @@ package server
 import (
 	"testing"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/analysis/lexical/token"
-	"github.com/bryanl/jsonnet-language-server/pkg/langserver"
-	"github.com/bryanl/jsonnet-language-server/pkg/lsp"
-	"github.com/bryanl/jsonnet-language-server/pkg/util/position"
+	"github.com/tminor/jsonnet-language-server/pkg/analysis/lexical/token"
+	"github.com/tminor/jsonnet-language-server/pkg/langserver"
+	"github.com/tminor/jsonnet-language-server/pkg/lsp"
+	"github.com/tminor/jsonnet-language-server/pkg/util/position"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

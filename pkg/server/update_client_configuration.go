@@ -5,8 +5,8 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/config"
-	"github.com/bryanl/jsonnet-language-server/pkg/lsp"
+	"github.com/tminor/jsonnet-language-server/pkg/config"
+	"github.com/tminor/jsonnet-language-server/pkg/lsp"
 	"github.com/opentracing/opentracing-go/log"
 )
 

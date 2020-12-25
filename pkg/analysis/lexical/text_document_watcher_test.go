@@ -3,8 +3,8 @@ package lexical
 import (
 	"testing"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/config"
-	"github.com/bryanl/jsonnet-language-server/pkg/lsp"
+	"github.com/tminor/jsonnet-language-server/pkg/config"
+	"github.com/tminor/jsonnet-language-server/pkg/lsp"
 )
 
 func TestTextDocumentWatcher_watch(t *testing.T) {

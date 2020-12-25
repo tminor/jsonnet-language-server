@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	rice "github.com/GeertJohan/go.rice"
-	"github.com/bryanl/jsonnet-language-server/pkg/analysis/lexical/astext"
+	"github.com/tminor/jsonnet-language-server/pkg/analysis/lexical/astext"
 	"github.com/google/go-jsonnet/ast"
 	"github.com/pkg/errors"
 )

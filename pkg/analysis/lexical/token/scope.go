@@ -4,9 +4,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/analysis/lexical/astext"
-	"github.com/bryanl/jsonnet-language-server/pkg/analysis/static"
-	jlspos "github.com/bryanl/jsonnet-language-server/pkg/util/position"
+	"github.com/tminor/jsonnet-language-server/pkg/analysis/lexical/astext"
+	"github.com/tminor/jsonnet-language-server/pkg/analysis/static"
+	jlspos "github.com/tminor/jsonnet-language-server/pkg/util/position"
 	"github.com/google/go-jsonnet/ast"
 	"github.com/pkg/errors"
 )

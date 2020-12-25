@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	jpos "github.com/bryanl/jsonnet-language-server/pkg/util/position"
+	jpos "github.com/tminor/jsonnet-language-server/pkg/util/position"
 	"github.com/google/go-jsonnet/ast"
 	opentracing "github.com/opentracing/opentracing-go"
 )

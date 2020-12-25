@@ -5,9 +5,9 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/lsp"
-	"github.com/bryanl/jsonnet-language-server/pkg/util/position"
-	"github.com/bryanl/jsonnet-language-server/pkg/util/uri"
+	"github.com/tminor/jsonnet-language-server/pkg/lsp"
+	"github.com/tminor/jsonnet-language-server/pkg/util/position"
+	"github.com/tminor/jsonnet-language-server/pkg/util/uri"
 )
 
 // TextDocument is a document's text and and metadata.

@@ -4,8 +4,8 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/config"
-	"github.com/bryanl/jsonnet-language-server/pkg/lsp"
+	"github.com/tminor/jsonnet-language-server/pkg/config"
+	"github.com/tminor/jsonnet-language-server/pkg/lsp"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"

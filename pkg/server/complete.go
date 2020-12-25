@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/tracing"
-	"github.com/bryanl/jsonnet-language-server/pkg/util/position"
+	"github.com/tminor/jsonnet-language-server/pkg/tracing"
+	"github.com/tminor/jsonnet-language-server/pkg/util/position"
 	"github.com/opentracing/opentracing-go/log"
 
-	"github.com/bryanl/jsonnet-language-server/pkg/analysis/lexical/token"
-	"github.com/bryanl/jsonnet-language-server/pkg/config"
-	"github.com/bryanl/jsonnet-language-server/pkg/langserver"
-	"github.com/bryanl/jsonnet-language-server/pkg/lsp"
-	"github.com/bryanl/jsonnet-language-server/pkg/util/uri"
+	"github.com/tminor/jsonnet-language-server/pkg/analysis/lexical/token"
+	"github.com/tminor/jsonnet-language-server/pkg/config"
+	"github.com/tminor/jsonnet-language-server/pkg/langserver"
+	"github.com/tminor/jsonnet-language-server/pkg/lsp"
+	"github.com/tminor/jsonnet-language-server/pkg/util/uri"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/pkg/errors"
 )
